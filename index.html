@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>KBK STYLE v3.3</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: sans-serif;
+      background-color: #173D50;
+      color: #fff;
+      text-align: center;
+    }
+    header {
+      background-color: #B3966A;
+      color: #173D50;
+      padding: 1rem;
+      font-weight: bold;
+      font-size: 1.5rem;
+    }
+    main {
+      padding: 1rem;
+    }
+    input[type="file"], button {
+      margin: 1rem;
+      padding: 0.5rem 1rem;
+      background-color: #B3966A;
+      color: #173D50;
+      border: none;
+      border-radius: 6px;
+      font-weight: bold;
+    }
+    canvas {
+      max-width: 100%;
+      height: auto;
+      margin: 1rem auto;
+      display: block;
+      background-color: #B3966A;
+      border-radius: 20px;
+      padding: 12px;
+      box-shadow: 0px 0px 0px 12px white;
+    }
+  </style>
+</head>
+<body>
+  <header>KBK STYLE v3.3：下載圖一致修正版</header>
+  <main>
+    <input type="file" id="fileInput">
+    <button onclick="openCamera()">啟動手機鏡頭</button>
+    <canvas id="canvas"></canvas>
+    <a id="downloadLink" download="kbk_image.png">
+      <button>下載圖片</button>
+    </a>
+  </main>
+  <script src="main.js"></script>
+</body>
+</html>
