@@ -1,2 +1,0 @@
-# KBK_STYLE
-KBK_STYLE
