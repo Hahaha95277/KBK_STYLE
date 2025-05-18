@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>KBK STYLE</title>
+  <style>
+    body {
+      margin: 0;
+      background: #002c2b;
+      color: white;
+      font-family: sans-serif;
+      text-align: center;
+    }
+    header {
+      padding: 1em;
+      background: #f5d68f;
+      color: #002c2b;
+      font-size: 1.5em;
+      font-weight: bold;
+    }
+    #preview {
+      margin: 1em;
+      max-width: 90%;
+      border: 5px solid #f5d68f;
+      border-radius: 12px;
+    }
+  </style>
+</head>
+<body>
+  <header>KBK STYLE</header>
+  <input type="file" accept="image/*" id="upload" />
+  <canvas id="canvas"></canvas>
+  <script type="module" src="./main.js"></script>
+</body>
+</html>
