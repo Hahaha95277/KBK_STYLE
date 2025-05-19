@@ -1,0 +1,15 @@
+
+body {
+    background-color: #173D50;
+    color: white;
+    text-align: center;
+    font-family: sans-serif;
+}
+canvas {
+    margin: 20px auto;
+    display: block;
+    background-color: white;
+    border: 20px solid #B3966A;
+    box-shadow: 0 0 0 20px white;
+    border-radius: 20px;
+}
